@@ -6,8 +6,8 @@ import Dashboard from './pages/Dashboard';
 import Billing from './pages/Billing';
 import Purchase from './pages/Purchase';
 import Inventory from './pages/Inventory';
-import SalesmanReceivable from './pages/SalesmanReceivable';
-import Reports from './pages/Reports';
+//import SalesmanReceivable from './pages/SalesmanReceivable';
+//import Reports from './pages/Reports';
 import DailyCollectionSheet from './pages/DailyCollectionSheet';
 //import SalesRegister from './pages/SalesRegister';
 //import SalesSummary from './pages/SalesSummary';
@@ -31,8 +31,8 @@ function App() {
               <Route path="/billing" element={<Billing />} />
               <Route path="/purchase" element={<Purchase />} />
               <Route path="/inventory" element={<Inventory />} />
-              <Route path="/salesman-receivable" element={<SalesmanReceivable />} />
-              <Route path="/reports" element={<Reports />} />
+{/*               <Route path="/salesman-receivable" element={<SalesmanReceivable />} />
+              <Route path="/reports" element={<Reports />} /> */}
               <Route path="/daily-collection" element={<DailyCollectionSheet />} />
 {/*               <Route path="/sales-register" element={<SalesRegister />} />
 {/*               <Route path="/sales-summary" element={<SalesSummary />} /> */} */}
