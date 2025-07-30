@@ -16,7 +16,7 @@ import FishBoxesReceived from './pages/FishBoxesReceived';
 import FishBoxesSent from './pages/FishBoxesSent';
 import CustomerManagement from './pages/CustomerManagement';
 import PartyManagement from './pages/PartyManagement';
-import AdminPanel from './pages/AdminPanel';
+//import AdminPanel from './pages/AdminPanel';
 
 function App() {
   return (
