@@ -10,7 +10,7 @@ const navigationItems = [
   { path: '/salesman-receivable', label: 'RCBL', icon: UserCheck },
   { path: '/reports', label: 'Reports', icon: FileText },
   { path: '/daily-collection', label: 'Daily Collection', icon: Calendar },
-  // { path: '/sales-register', label: 'Sales Register', icon: TrendingUp },
+  { path: '/sales-register', label: 'Sales Register', icon: TrendingUp },
   // { path: '/sales-summary', label: 'Sales Summary', icon: BarChart3 },
   { path: '/statement', label: 'Statement', icon: FileText },
   { path: '/fish-boxes-received', label: 'Boxes Received', icon: Archive },
