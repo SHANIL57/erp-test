@@ -16,7 +16,7 @@ import FishBoxesReceived from './pages/FishBoxesReceived';
 import FishBoxesSent from './pages/FishBoxesSent';
 import CustomerManagement from './pages/CustomerManagement';
 import PartyManagement from './pages/PartyManagement';
-import AdminPanel from './pages/AdminPanel';
+// import AdminPanel from './pages/AdminPanel';
 
 function App() {
   return (
@@ -41,7 +41,9 @@ function App() {
               <Route path="/fish-boxes-sent" element={<FishBoxesSent />} />
               <Route path="/customers" element={<CustomerManagement />} />
               <Route path="/parties" element={<PartyManagement />} />
-              <Route path="/admin" element={<AdminPanel />} />
+    
+{/*               <Route path="/admin" element={<AdminPanel />} />
+               */}
             </Routes>
           </main>
         </div>
