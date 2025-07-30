@@ -69,7 +69,7 @@ export default function AdminPanel() {
       </PageHeader>
 
       {/* Navigation Tabs */}
-      <div className="bg-white rounded-xl shadow-sm border border-orange-100">
+   /*   <div className="bg-white rounded-xl shadow-sm border border-orange-100">
         <div className="flex space-x-1 p-1">
           {tabs.map((tab) => {
             const Icon = tab.icon;
@@ -92,11 +92,11 @@ export default function AdminPanel() {
       </div>
 
       {/* Tab Content */}
-      <div className="space-y-6">
+   /*   <div className="space-y-6">
         {activeTab === 'overview' && (
           <>
             {/* System Overview */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+         /*   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-white rounded-xl shadow-sm border border-orange-100 p-6">
                 <div className="flex items-center space-x-3">
                   <div className="p-3 bg-green-100 rounded-xl">
@@ -147,7 +147,7 @@ export default function AdminPanel() {
             </div>
 
             {/* System Health */}
-            <div className="bg-white rounded-xl shadow-sm border border-orange-100 p-6">
+          /*  <div className="bg-white rounded-xl shadow-sm border border-orange-100 p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-4">System Health</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center p-4 bg-green-50 rounded-lg">
@@ -448,7 +448,7 @@ export default function AdminPanel() {
         {activeTab === 'system' && (
           <div className="space-y-6">
             {/* System Information */}
-            <div className="bg-white rounded-xl shadow-sm border border-orange-100 p-6">
+       /*     <div className="bg-white rounded-xl shadow-sm border border-orange-100 p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-4">System Information</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
@@ -492,7 +492,7 @@ export default function AdminPanel() {
             </div>
 
             {/* Data Management */}
-            <div className="bg-white rounded-xl shadow-sm border border-orange-100 p-6">
+        /*    <div className="bg-white rounded-xl shadow-sm border border-orange-100 p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-4">Data Management</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <button
@@ -519,7 +519,7 @@ export default function AdminPanel() {
             </div>
 
             {/* System Logs */}
-            <div className="bg-white rounded-xl shadow-sm border border-orange-100 p-6">
+         /*   <div className="bg-white rounded-xl shadow-sm border border-orange-100 p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-4">Recent Activity</h3>
               <div className="space-y-3">
                 <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
