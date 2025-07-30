@@ -9,7 +9,7 @@ import Inventory from './pages/Inventory';
 import SalesmanReceivable from './pages/SalesmanReceivable';
 import Reports from './pages/Reports';
 import DailyCollectionSheet from './pages/DailyCollectionSheet';
-import SalesRegister from './pages/SalesRegister';
+//import SalesRegister from './pages/SalesRegister';
 //import SalesSummary from './pages/SalesSummary';
 import Statement from './pages/Statement';
 import FishBoxesReceived from './pages/FishBoxesReceived';
@@ -34,8 +34,8 @@ function App() {
               <Route path="/salesman-receivable" element={<SalesmanReceivable />} />
               <Route path="/reports" element={<Reports />} />
               <Route path="/daily-collection" element={<DailyCollectionSheet />} />
-              <Route path="/sales-register" element={<SalesRegister />} />
-{/*               <Route path="/sales-summary" element={<SalesSummary />} /> */}
+{/*               <Route path="/sales-register" element={<SalesRegister />} />
+{/*               <Route path="/sales-summary" element={<SalesSummary />} /> */} */}
               <Route path="/statement" element={<Statement />} />
               <Route path="/fish-boxes-received" element={<FishBoxesReceived />} />
               <Route path="/fish-boxes-sent" element={<FishBoxesSent />} />
