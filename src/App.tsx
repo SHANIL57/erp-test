@@ -6,17 +6,17 @@ import Dashboard from './pages/Dashboard';
 import Billing from './pages/Billing';
 import Purchase from './pages/Purchase';
 import Inventory from './pages/Inventory';
-import SalesmanReceivable from './pages/SalesmanReceivable';
+// import SalesmanReceivable from './pages/SalesmanReceivable';
 import Reports from './pages/Reports';
 import DailyCollectionSheet from './pages/DailyCollectionSheet';
-import SalesRegister from './pages/SalesRegister';
-import SalesSummary from './pages/SalesSummary';
+// import SalesRegister from './pages/SalesRegister';
+// import SalesSummary from './pages/SalesSummary';
 import Statement from './pages/Statement';
 import FishBoxesReceived from './pages/FishBoxesReceived';
 import FishBoxesSent from './pages/FishBoxesSent';
 import CustomerManagement from './pages/CustomerManagement';
 import PartyManagement from './pages/PartyManagement';
-import AdminPanel from './pages/AdminPanel';
+// import AdminPanel from './pages/AdminPanel';
 
 function App() {
   return (
