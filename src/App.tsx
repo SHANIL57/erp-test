@@ -31,8 +31,8 @@ function App() {
               <Route path="/billing" element={<Billing />} />
               <Route path="/purchase" element={<Purchase />} />
               <Route path="/inventory" element={<Inventory />} />
-{/*               <Route path="/salesman-receivable" element={<SalesmanReceivable />} />
-              <Route path="/reports" element={<Reports />} /> */}
+{/*               <Route path="/salesman-receivable" element={<SalesmanReceivable />} /> */}
+{/*               <Route path="/reports" element={<Reports />} /> */}
               <Route path="/daily-collection" element={<DailyCollectionSheet />} />
 {/*               <Route path="/sales-register" element={<SalesRegister />} />
 {/*               <Route path="/sales-summary" element={<SalesSummary />} /> */} */}
