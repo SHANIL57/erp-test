@@ -17,7 +17,7 @@ const navigationItems = [
   { path: '/fish-boxes-sent', label: 'Boxes Sent', icon: Send },
   { path: '/customers', label: 'Customers', icon: Users },
   { path: '/parties', label: 'Parties', icon: Building2 },
-  { path: '/admin', label: 'Admin Panel', icon: Settings }
+ // { path: '/admin', label: 'Admin Panel', icon: Settings }
 ];
 
 export default function Header() {
